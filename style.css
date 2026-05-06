@@ -48,8 +48,22 @@ input {
     color: #000;
 }
 
-.container {
-    display: flex
-    justfify-content: center;
+.lupa-icone {
+    background-image: url('imagem/lupa.png');
+    background-repeat: no-repeat;
 }
+
+input::placeholder {
+    margin: 10px;
+    background-color: aqua;
+}
+.container {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #FFF;
+}
+
+.container img { display: none; }
+.container img.imagem { display: block; }
 
